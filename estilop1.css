@@ -4,29 +4,45 @@ body{
     padding: 0;
     border: 0;
 }
-
+.topo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#mae{
+    padding: 17%;
+    padding-top: 0;
+}
 #logo{
-    width: 448px;
-    margin: auto;
-    float: left;
+    padding-right: 420px;
 }
 #menu{
     width: 448px;
     height: 57px;
     margin: auto;
     text-align: right;
-    padding: 0;
-    display: table-cell;
-    vertical-align: middle;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
 }
 #capa{
     margin: 0;
     padding: 0;
     width: 900px;
+    
 }
 #iii{
   
     width: 900px;
     height: 422px;
     clear: both;
+}
+#conteudo{
+    width: 900px;
+    text-align: justify;
+}
+#direito{
+    text-align: center;
+    width: 900px;
 }
